@@ -153,52 +153,42 @@
         <Ww>
           <count>0</count>
           <WinNumber>1</WinNumber>
-          <ItemText>ADC_Volt</ItemText>
+          <ItemText>CalBias_flag,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>1</count>
           <WinNumber>1</WinNumber>
-          <ItemText>CalBias_flag,0x0A</ItemText>
+          <ItemText>ad7606_fifo,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>2</count>
           <WinNumber>1</WinNumber>
-          <ItemText>ad7606_fifo,0x0A</ItemText>
+          <ItemText>Meg_val,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>3</count>
           <WinNumber>1</WinNumber>
-          <ItemText>Meg_val,0x0A</ItemText>
+          <ItemText>Volt_bias</ItemText>
         </Ww>
         <Ww>
           <count>4</count>
           <WinNumber>1</WinNumber>
-          <ItemText>ADC_Code,0x0A</ItemText>
+          <ItemText>Sample_freq</ItemText>
         </Ww>
         <Ww>
           <count>5</count>
           <WinNumber>1</WinNumber>
-          <ItemText>Volt_bias</ItemText>
+          <ItemText>samp_cnt,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>6</count>
           <WinNumber>1</WinNumber>
-          <ItemText>uart1_rec_data</ItemText>
+          <ItemText>Freq,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>7</count>
           <WinNumber>1</WinNumber>
-          <ItemText>Sample_freq</ItemText>
-        </Ww>
-        <Ww>
-          <count>8</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>samp_cnt,0x0A</ItemText>
-        </Ww>
-        <Ww>
-          <count>9</count>
-          <WinNumber>1</WinNumber>
-          <ItemText>Freq,0x0A</ItemText>
+          <ItemText>Filt_Dat[4]</ItemText>
         </Ww>
       </WatchWindow1>
       <MemoryWindow1>

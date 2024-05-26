@@ -170,12 +170,12 @@ void MoveAverageFilter(float *dat, uint8_t Window)
 
 float Volt_Meg_Fitting(float *volt)
 {
-	const float coef = 0.1543;
-
+	const float coef = 0.1339;//0.1604
+	const float p = 4.508;//12.187
 	for (uint8_t i = 0; i < 8; i++)
 	{
 		volt[i] = volt[i] - Volt_bias[i];
-		Meg_val[i] = coef * volt[i];
+		Meg_val[i] = coef * volt[i]+p;
 	}
 }
 // void AverageFilter(uint16_t *dat)

@@ -22,21 +22,81 @@ Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
 D:\ST-project\Hall_Sensor_Device\MDK-ARM\Hall_Sensor_Device.uvprojx
-Project File Date:  04/25/2024
+Project File Date:  05/21/2024
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil-core\ARM\ARMCC\Bin'
 Build target 'Hall_Sensor_Device'
-compiling main.c...
+compiling AD7606.c...
 ../Core/Inc/AD7606.h(47): warning:  #1295-D: Deprecated declaration AD7606_StopConv - give arg types
   void AD7606_StopConv();
 ../Core/Inc/AD7606.h(51): warning:  #1-D: last line of file ends without a newline
   #endif
-../Core/Src/main.c: 2 warnings, 0 errors
+..\Core\Src\AD7606.c(27): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(AD_RESET_GPIO_Port, AD_RESET_Pin, 0);
+..\Core\Src\AD7606.c(28): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(AD_RESET_GPIO_Port, AD_RESET_Pin, 1);
+..\Core\Src\AD7606.c(29): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(AD_RESET_GPIO_Port, AD_RESET_Pin, 1);
+..\Core\Src\AD7606.c(30): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(AD_RESET_GPIO_Port, AD_RESET_Pin, 1);
+..\Core\Src\AD7606.c(31): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(AD_RESET_GPIO_Port, AD_RESET_Pin, 0);
+..\Core\Src\AD7606.c(40): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS1_GPIO_Port, AD_OS1_Pin, 0);
+..\Core\Src\AD7606.c(41): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS2_GPIO_Port, AD_OS2_Pin, 0);
+..\Core\Src\AD7606.c(42): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS3_GPIO_Port, AD_OS3_Pin, 0);
+..\Core\Src\AD7606.c(47): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS1_GPIO_Port, AD_OS1_Pin, 1);
+..\Core\Src\AD7606.c(48): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS2_GPIO_Port, AD_OS2_Pin, 0);
+..\Core\Src\AD7606.c(49): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS3_GPIO_Port, AD_OS3_Pin, 0);
+..\Core\Src\AD7606.c(54): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS1_GPIO_Port, AD_OS1_Pin, 0);
+..\Core\Src\AD7606.c(55): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS2_GPIO_Port, AD_OS2_Pin, 1);
+..\Core\Src\AD7606.c(56): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS3_GPIO_Port, AD_OS3_Pin, 0);
+..\Core\Src\AD7606.c(61): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS1_GPIO_Port, AD_OS1_Pin, 1);
+..\Core\Src\AD7606.c(62): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS2_GPIO_Port, AD_OS2_Pin, 1);
+..\Core\Src\AD7606.c(63): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS3_GPIO_Port, AD_OS3_Pin, 0);
+..\Core\Src\AD7606.c(68): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS1_GPIO_Port, AD_OS1_Pin, 0);
+..\Core\Src\AD7606.c(69): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS2_GPIO_Port, AD_OS2_Pin, 0);
+..\Core\Src\AD7606.c(70): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS3_GPIO_Port, AD_OS3_Pin, 1);
+..\Core\Src\AD7606.c(75): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS1_GPIO_Port, AD_OS1_Pin, 1);
+..\Core\Src\AD7606.c(76): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS2_GPIO_Port, AD_OS2_Pin, 0);
+..\Core\Src\AD7606.c(77): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS3_GPIO_Port, AD_OS3_Pin, 1);
+..\Core\Src\AD7606.c(82): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS1_GPIO_Port, AD_OS1_Pin, 0);
+..\Core\Src\AD7606.c(83): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS2_GPIO_Port, AD_OS2_Pin, 1);
+..\Core\Src\AD7606.c(84): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(AD_OS3_GPIO_Port, AD_OS3_Pin, 1);
+..\Core\Src\AD7606.c(117): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(AD_RESET_GPIO_Port, AD_RESET_Pin, 0);
+..\Core\Src\AD7606.c(118): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(AD_RANGE_GPIO_Port, AD_RANGE_Pin, 0);
+..\Core\Src\AD7606.c(180): warning:  #940-D: missing return statement at end of non-void function "Volt_Meg_Fitting" 
+  }
+..\Core\Src\AD7606.c(269): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin(AD_CONV_GPIO_Port, AD_CONV_Pin, 1);
+..\Core\Src\AD7606.c: 32 warnings, 0 errors
 linking...
-Program Size: Code=13324 RO-data=380 RW-data=44 ZI-data=20772  
+Program Size: Code=13336 RO-data=380 RW-data=44 ZI-data=20772  
 FromELF: creating hex file...
-"Hall_Sensor_Device\Hall_Sensor_Device.axf" - 0 Error(s), 2 Warning(s).
+"Hall_Sensor_Device\Hall_Sensor_Device.axf" - 0 Error(s), 32 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -60,7 +120,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.6.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>
